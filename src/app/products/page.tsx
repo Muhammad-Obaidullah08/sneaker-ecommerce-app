@@ -21,14 +21,14 @@ const page = () => {
                 <div className="m-5 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-700">
                     <Image src="/images/2.webp" alt="products" width={200} height={200} className="rounded-t-sm"></Image>
                     <div className="bg-slate-200 text-center rounded-b-sm py-2">
-                        <p className="font-bold text-xl text-sky-950">Raglan Shoes</p>
+                        <p className="font-bold text-xl text-sky-950">Red Sneakers</p>
                         <p>450$</p>
                     </div>
                 </div>
                 <div className="m-5 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-700">
                     <Image src="/images/3.webp" alt="products" width={200} height={200} className="rounded-t-sm"></Image>
                     <div className="bg-slate-200 text-center rounded-b-sm py-2">
-                        <p className="font-bold text-xl text-sky-950">Red Sneakers</p>
+                        <p className="font-bold text-xl text-sky-950">Yellow Sneakers</p>
                         <p>550$</p>
                     </div>
                 </div>
@@ -42,21 +42,21 @@ const page = () => {
                 <div className="m-5 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-700">
                     <Image src="/images/5.webp" alt="products" width={200} height={200} className="rounded-t-sm"></Image>
                     <div className="bg-slate-200 text-center rounded-b-sm py-2">
-                        <p className="font-bold text-xl text-sky-950">Yellow Sneakers</p>
+                        <p className="font-bold text-xl text-sky-950">Raglan Shoes</p>
                         <p>250$</p>
                     </div>
                 </div>
                 <div className="m-5 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-700">
                     <Image src="/images/6.webp" alt="products" width={200} height={200} className="rounded-t-sm"></Image>
                     <div className="bg-slate-200 text-center rounded-b-sm py-2">
-                        <p className="font-bold text-xl text-sky-950">Snow Light</p>
+                        <p className="font-bold text-xl text-sky-950">Neon Push</p>
                         <p>750$</p>
                     </div>
                 </div>
                 <div className="m-5 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-700">
                     <Image src="/images/7.webp" alt="products" width={200} height={200} className="rounded-t-sm"></Image>
                     <div className="bg-slate-200 text-center rounded-b-sm py-2">
-                        <p className="font-bold text-xl text-sky-950">Neon Push</p>
+                        <p className="font-bold text-xl text-sky-950">Snow Light</p>
                         <p>200$</p>
                     </div>
                 </div>
