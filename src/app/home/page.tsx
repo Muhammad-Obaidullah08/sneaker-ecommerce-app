@@ -37,7 +37,7 @@ const HomePage = () => {
                 <div className="first flex flex-col justify-center item-center h-[37.5rem] lg:h-[35rem] space-y-3">
                     <div className="bg-gray-500 px-10 text-center flex justify-center items-center w-72 flex-col h-[35rem] mx-auto my-5 lg:my-1 lg:mt-10 py-5 ">
                         <div className="flex flex-col">
-                            <Image src="/images/promotion3-image.PNG" alt="promotion-image" width={100} height={100} className="w-72 h-52 mx-auto"></Image>
+                            <Image src="/images/promotion3-image.PNG" alt="promotion-image" width={200} height={200} className="w-72 h-52 mx-auto"></Image>
                             <h1 className="font-bold text-4xl text-white my-3 lg:my-1">Casual Sneakers</h1>
                             <div className="flex flex-row w-full my-2 lg:my-1 text-center items-center">
                                 <h4 className="line-through text-2xl text-white w-1/2">600$</h4>
@@ -53,7 +53,7 @@ const HomePage = () => {
                 </div>
 
                 <div className="second bg-slate-300 px-10 text-center flex justify-center items-center w-72 flex-col mx-auto my-5 py-5 h-[35rem]">
-                    <Image src="/images/promotion-image.jpg" alt="promotion-image" width={100} height={100} className="w-72 h-52 lg:h-60 mx-auto"></Image>
+                    <Image src="/images/promotion-image.jpg" alt="promotion-image" width={200} height={200} className="w-72 h-52 lg:h-60 mx-auto"></Image>
                     <h1 className="font-bold text-4xl my-3">For The Summer Season</h1>
                     <div className="flex flex-row w-full my-2 text-center items-center">
                         <h4 className="line-through text-2xl w-1/2">500$</h4>
@@ -61,7 +61,7 @@ const HomePage = () => {
                     </div>
                 </div>
                 <div className="third bg-sky-200 px-10 text-center flex justify-center items-center w-72 flex-col mx-auto my-5 py-5 h-[35rem]">
-                    <Image src="/images/promotion2-image.jpg" alt="promotion-image" width={100} height={100} className="w-72 h-52 lg:h-60 mx-auto"></Image>
+                    <Image src="/images/promotion2-image.jpg" alt="promotion-image" width={200} height={200} className="w-72 h-52 lg:h-60 mx-auto"></Image>
                     <h1 className="font-bold text-4xl my-3">Light And Soft</h1>
                     <div className="flex flex-row w-full my-2 text-center items-center">
                         <h4 className="line-through text-2xl w-1/2">400$</h4>
