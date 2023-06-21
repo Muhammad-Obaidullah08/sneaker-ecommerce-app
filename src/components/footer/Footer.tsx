@@ -58,7 +58,7 @@ const Footer = () => {
                 </div>
                 <div className="text-xs w-full text-center">
                     <p>Coded By: <strong>Muhammad Obaidullah</strong></p>
-                    <a href="https://github.com/Muhammad-Obaidullah08" target="_blank" className="font-bold hover:underline">View On Github</a>
+                    <a href="https://github.com/Muhammad-Obaidullah08/sneaker-ecommerce-app" target="_blank" className="font-bold hover:underline">View On Github</a>
                 </div>
             </footer>
         </>
