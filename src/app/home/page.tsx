@@ -37,7 +37,7 @@ const HomePage = () => {
                 <div className="first flex flex-col justify-center item-center h-[37.5rem] lg:h-[35rem] space-y-3">
                     <div className="bg-gray-500 px-10 text-center flex justify-center items-center w-72 flex-col h-[35rem] mx-auto my-5 lg:my-1 lg:mt-10 py-5 ">
                         <div className="flex flex-col">
-                            <Image src="/images/promotion3-image.png" alt="promotion-image" width={100} height={100} className="w-72 h-52 mx-auto"></Image>
+                            <Image src="/images/promotion3-image.PNG" alt="promotion-image" width={100} height={100} className="w-72 h-52 mx-auto"></Image>
                             <h1 className="font-bold text-4xl text-white my-3 lg:my-1">Casual Sneakers</h1>
                             <div className="flex flex-row w-full my-2 lg:my-1 text-center items-center">
                                 <h4 className="line-through text-2xl text-white w-1/2">600$</h4>
