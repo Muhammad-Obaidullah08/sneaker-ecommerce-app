@@ -4,12 +4,13 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import Image from "next/image"
 import Link from "next/link"
+import Sign from "@/components/sign-in-btn/sign"
 
 const HomePage = () => {
     return (
         <>
             <Navbar />
-            <section className="home flex flex-col md:flex-row my-5 lg:mt-24 px-10">
+            <section className="home flex flex-col md:flex-row my-5 lg:mt-24 px-10 z-10">
                 <div className="left flex flex-col md:w-1/2 md:mt-8">
                     <div className="text flex flex-col w-11/12 mx-auto items-center md:items-start">
                         <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold w-fit">Discover The</h2>
@@ -18,7 +19,7 @@ const HomePage = () => {
                         <p className="text-base sm:text-lg text-slate-600 my-5">Shop our latest collection of premium shoes designed for comfort and style.</p>
                     </div>
                     <div className="button flex justify-between px-4 w-full mt-8">
-                        <Button className="sm:hidden cursor-pointer bg-sky-950 hover:bg-sky-950 text-white hover:text-yellow-500 font-semibold justify-start">Sign In</Button>
+                        <Sign />
                         <Link href="/products"><Button className="cursor-pointer bg-sky-950 hover:bg-sky-950 text-white hover:text-yellow-500 font-semibold justify-end sm:p-5">Shop Now</Button></Link>
                     </div>
                 </div>
@@ -81,28 +82,33 @@ const HomePage = () => {
                 <h5 className="font-bold text-base text-blue-600">Check What We Have</h5>
             </div>
 
-            <section className="product flex flex-col justify-center items-center sm:flex-row">
-                <div className="image1 flex flex-col justify-center items-center transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-700 p-5 sm:w-1/3">
-                    <Image src="/images/product-image.png" alt="product-image" width={300} height={448} className="mx-3 mt-3 w-11/12 h-80 md:h-96 lg:h-[28rem] rounded-t-sm"></Image>
-                    <div className="lower-text bg-slate-300 flex flex-col justify-center items-center w-11/12 rounded-b-sm p-3 text-center">
-                        <h3 className="font-bold text-lg">Best Casual Sneakers</h3>
-                        <p>500$</p>
+            <section className="product flex flex-col justify-around items-center sm:flex-row">
+                <Link href="/home/casual-sneaker">
+                    <div className="image1 flex flex-col justify-center items-center transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-700 p-5 sm:w-[20rem]">
+                        <Image src="/images/product-image.png" alt="product-image" width={300} height={448} className="mx-3 mt-3 w-11/12 h-80 md:h-96 lg:h-[28rem] rounded-t-sm"></Image>
+                        <div className="lower-text bg-slate-300 flex flex-col justify-center items-center w-11/12 rounded-b-sm p-3 text-center">
+                            <h3 className="font-bold text-lg">Best Casual Sneakers</h3>
+                            <p>200$</p>
+                        </div>
                     </div>
-                </div>
-                <div className="image2 flex flex-col justify-center items-center transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-700 p-5 sm:w-1/3">
-                    <Image src="/images/product1-image.png" alt="product-image" width={300} height={448} className="mx-3 mt-3 w-11/12 h-80 md:h-96 lg:h-[28rem] rounded-t-sm"></Image>
-                    <div className="lower-text bg-slate-300 flex flex-col justify-center items-center w-11/12 rounded-b-sm p-3 text-center">
-                        <h3 className="font-bold text-lg">Men Sneakers</h3>
-                        <p>400$</p>
+                </Link>
+                <Link href="/home/men-sneaker">
+                    <div className="image2 flex flex-col justify-center items-center transition ease-in-out  hover:-translate-y-1 hover:scale-110 duration-700 p-5 sm:w-full">
+                        <Image src="/images/product1-image.png" alt="product-image" width={300} height={448} className="mx-3 mt-3 w-11/12 h-80 md:h-96 lg:h-[28rem] rounded-t-sm"></Image>
+                        <div className="lower-text bg-slate-300 flex flex-col justify-center items-center w-11/12 rounded-b-sm p-3 text-center">
+                            <h3 className="font-bold text-lg">Men Sneakers</h3>
+                            <p>150$</p>
+                        </div>
+                    </div></Link>
+                <Link href="/home/men-skechers">
+                    <div className="image3 flex flex-col justify-center items-center transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-700 p-5 sm:w-full">
+                        <Image src="/images/product2-image.png" alt="product-image" width={300} height={448} className="mx-3 mt-3 w-11/12 h-80 md:h-96 lg:h-[28rem] rounded-t-sm"></Image>
+                        <div className="lower-text bg-slate-300 flex flex-col justify-center items-center w-11/12 rounded-b-sm p-3 text-center">
+                            <h3 className="font-bold text-lg">Skechers Men Go Walk</h3>
+                            <p>100$</p>
+                        </div>
                     </div>
-                </div>
-                <div className="image3 flex flex-col justify-center items-center transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-700 p-5 sm:w-1/3">
-                    <Image src="/images/product2-image.png" alt="product-image" width={300} height={448} className="mx-3 mt-3 w-11/12 h-80 md:h-96 lg:h-[28rem] rounded-t-sm"></Image>
-                    <div className="lower-text bg-slate-300 flex flex-col justify-center items-center w-11/12 rounded-b-sm p-3 text-center">
-                        <h3 className="font-bold text-lg">Skechers Men Go Walk</h3>
-                        <p>250$</p>
-                    </div>
-                </div>
+                </Link>
             </section>
 
             <section className="hidden md:flex bg-slate-200 mt-20 p-3">
