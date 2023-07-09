@@ -30,7 +30,7 @@ const Page = () => {
                     <Counter />
                     <div className="flex justify-between mb-10 p-5 sm:px-10">
                         <Link href="/products"><Button className="bg-sky-950 hover:bg-sky-950 text-white hover:text-yellow-500 font-semibold">Go Back</Button></Link>
-                        <Button className="bg-sky-950 hover:bg-sky-950 text-white hover:text-yellow-500 font-semibold">Add To Cart</Button>
+                        <Link href="/home/cart"><Button className="bg-sky-950 hover:bg-sky-950 text-white hover:text-yellow-500 font-semibold">Add To Cart</Button></Link>
                     </div>
                 </div>
             </section>
